@@ -34,9 +34,9 @@ const Home = () => {
 
       <Sidebar />
       <div className="flex  w-full relative pr-5">
-  <div className=" w-full z-50  h-[80vh] p-5 overflow-hidden ">
+  <div className=" w-full z-50  h-[80vh] p-5 pb-52 overflow-hidden ">
     <FilterBar />
-    <div className="grid grid-cols-3 gap-6  overflow-y-scroll pt-5 h-[42vw]   custom-scrollbar ">
+    <div className="grid grid-cols-3 gap-6   pb-36 overflow-y-scroll pt-5 h-[42vw]   custom-scrollbar ">
       {championsData.map((champ) => (
         <ChampionCard key={champ.name} champion={champ} />
       ))}

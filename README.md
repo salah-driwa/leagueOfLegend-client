@@ -2,7 +2,7 @@ League of Legends Champion Library
 Welcome to the League of Legends Champion Library! This application allows you to explore detailed information about League of Legends champions, featuring their unique splash art and thematic color schemes.
 
 Live Demo
-You can view the live version of the project here: League of Legends Champion Library
+You can view the live version of the project here: [League of Legends Champion Library](https://leagueoflegend-client.netlify.app/)
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

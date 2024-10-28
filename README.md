@@ -21,19 +21,14 @@ Custom Themes: Each champion's page is styled based on their unique splash art c
 Getting Started
 To run this project locally, follow these steps:
 
-Clone the repository:
-bash
-Copy code
+# Clone the repository
 git clone <repository-url>
-Navigate to the project directory:
-bash
-Copy code
+
+# Change directory into the project
 cd league-of-legends-champion-library
-Install the dependencies:
-bash
-Copy code
+
+# Install dependencies
 npm install
-Start the development server:
-bash
-Copy code
+
+# Start the development server
 npm run dev

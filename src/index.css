@@ -73,14 +73,9 @@ button:focus-visible {
 }
 /* glass-effect.css */
 .glass-effect {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.15),
-      rgba(255, 255, 255, 0.05)
-    ), 
-    url('https://images2.alphacoders.com/133/thumb-1920-1332614.jpeg') 
-    center/cover no-repeat;
-  backdrop-filter: blur(12px); /* Adjust blur level */
+  backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  /* Other styles */
 }
 
 

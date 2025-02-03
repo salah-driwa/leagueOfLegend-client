@@ -7,6 +7,7 @@ import ChampionCard from './component/ChampionCard';
 import ButtonBar from './component/ButtonBar';
 import NavigationSideBar from './component/NavigationSideBar';
 import championsData from "../Data/champions_data.json"
+import ProgressiveBackground from './component/ProgressiveBackground';
 
 
 const Home = () => {
@@ -22,7 +23,11 @@ const Home = () => {
       transition={{ duration: 0.5 }}
       className=" "  
     > 
-      <div className=" flex   h-screen glass-effect  relative       w-screen       ">
+     <ProgressiveBackground
+  
+      highResSrc='https://images2.alphacoders.com/133/thumb-1920-1332614.jpeg'
+    >
+      <div className=" flex   h-screen   relative       w-screen       ">
       <NavigationSideBar/>
       <div className='   mx-auto    w-10/12  mt-3  gap-3  flex flex-col'>
         <div     
@@ -57,7 +62,7 @@ const Home = () => {
     </div>
       </div>
     </div>
-    
+    </ProgressiveBackground>
     </motion.div>
   );
 };

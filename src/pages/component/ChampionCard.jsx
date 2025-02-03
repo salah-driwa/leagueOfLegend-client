@@ -46,7 +46,7 @@ const ChampionCard = ({ champion }) => {
       <div className="flex z-10 mt-4">
         <div>
           <h3 className="text-xl font-bold text-white">{champion.name}</h3>
-          <p className="text-sm text-gray-400">{champion.subname}</p>
+          <p className="text-sm text-nowrap w-6/12 text-gray-400">{champion.subname}</p>
         </div>
 
         <div className="flex ml-auto gap-4 items-center justify-center mr-3">
